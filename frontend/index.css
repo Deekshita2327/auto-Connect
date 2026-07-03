@@ -9,7 +9,26 @@ h1 {
 #home:hover{
     background-color: burlywood;
 }
-    
+#nav{
+    border:3px solid red;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+}   
+#nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+#nav a:hover{
+
+    text-decoration: underline;
+    color:aqua;
+    margin:0px 5px;
+}
 #p1{
     color:blue;
 }
